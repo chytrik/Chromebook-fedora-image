@@ -13,11 +13,13 @@ An example of how to run within a Linux session on a Chromebook
 podman run -it pafedora
 ```
 
+***
+
 A note on using PODMAN within a Linux session
 ```
 sudo dnf install podman
 ```
-Upravit volání podman
+Edit podman call
 ```
 sudo usermod --add-subuids 10000-75535 $(whoami)
 sudo usermod --add-subgids 10000-75535 $(whoami)
